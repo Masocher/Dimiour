@@ -61,3 +61,32 @@
     bottom: -150px;
     font-weight: 500;
 }
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+    .title_box {
+        font-size: 65px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 769px) {
+    .title_box {
+        font-size: 60px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 501px) {
+    .title_box {
+        font-size: 45px;
+        letter-spacing: 2px;
+        line-height: 60px;
+        width: 80%;
+    }
+
+    .title_issue {
+        bottom: -165px;
+    }
+}
