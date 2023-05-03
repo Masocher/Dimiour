@@ -3,7 +3,7 @@ import styles from '../styles/Header.module.css'
 
 // fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faBars } from '@fortawesome/free-solid-svg-icons'
 
 // tools
 import Link from 'next/link'
@@ -31,6 +31,8 @@ const Header = () => {
                     <input className={styles.search_input} type='text' placeholder='Search ...' />
                 </div>
             </div>
+
+            <div className={styles.menu_btn}><FontAwesomeIcon icon={faBars} /></div>
         </div>
     )
 }

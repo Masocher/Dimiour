@@ -57,3 +57,33 @@
     font-size: 13px;
     color: #fff;
 }
+
+.menu_btn {
+    font-size: 22px;
+    display: none;
+    cursor: pointer;
+}
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+    .right_content {
+        width: calc(85% - 95px);
+    }
+}
+
+@media (max-width: 769px) {
+    .right_content {
+        display: none;
+    }
+
+    .header {
+        width: calc(100% - 80px);
+        padding: 20px 40px;
+        background-color: #000;
+    }
+
+    .menu_btn {
+        display: block;
+    }
+}
