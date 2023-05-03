@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../../public/font/Raleway-Medium.ttf);
+}
+
+* {
+  font-family: "Raleway";
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
