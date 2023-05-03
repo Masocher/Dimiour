@@ -1,0 +1,71 @@
+.about_section {
+    width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_box {
+    width: calc(50% - 30px);
+    height: 670px;
+    background-image: url(../../public/images/other/about.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.left_content {
+    width: calc(50% - 95px);
+}
+
+.title_issue {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.black_box {
+    background-color: #000;
+    width: 70px;
+    height: 5px;
+    position: relative;
+    right: 30px;
+    margin: 30px 0;
+}
+
+.title_box {
+    font-size: 32px;
+    margin-bottom: 25px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    line-height: 50px;
+}
+
+.title_box div {
+    display: inline;
+    font-weight: bold;
+}
+
+.description {
+    margin-bottom: 20px;
+    color: #6c757d;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.learn_more_btn {
+    margin-top: 50px;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    cursor: pointer;
+    transition: .2s;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: fit-content;
+    font-size: 14px;
+}
+.learn_more_btn:hover {
+    background-color: #000;
+    color: #fff;
+}
