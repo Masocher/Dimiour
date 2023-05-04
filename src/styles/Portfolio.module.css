@@ -90,3 +90,32 @@
     background-color: #fff;
     color: #000;
 }
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+    .portfolio_box {
+        width: 960px;
+    }   
+}
+
+@media (max-width: 769px) {
+    .portfolio_box {
+        width: 720px;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        width: calc(100% - 20px);
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 501px) {
+    .portfolio_box {
+        width: calc(100% - 25px);
+    }
+}
