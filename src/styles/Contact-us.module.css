@@ -17,6 +17,7 @@
 .title_box {
     font-size: 32px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .description {
@@ -40,4 +41,18 @@
 .contact_btn:hover {
     background-color: #fff;
     color: #000;
+}
+
+/* Responsive */
+
+@media (max-width: 501px) {
+    .contact_box {
+        width: calc(100% - 50px);
+    }
+    
+    .title_box {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    
 }
