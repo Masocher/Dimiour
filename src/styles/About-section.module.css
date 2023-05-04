@@ -1,8 +1,9 @@
-.about_section {
+.container {
     width: 1140px;
     margin: 120px auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .image_box {
@@ -73,7 +74,7 @@
 /* Responsive */
 
 @media (max-width: 1025px) {
-    .about_section {
+    .container {
         width: 960px;
     }
 
@@ -84,11 +85,11 @@
 }
 
 @media (max-width: 769px) {
-    .about_section {
+    .container {
         width: 690px;
     }
 
-    .about_section {
+    .container {
         flex-direction: column;
     }
 
@@ -105,7 +106,7 @@
 }
 
 @media (max-width: 501px) {
-    .about_section {
+    .container {
         width: calc(100% - 25.6px);
     }
 

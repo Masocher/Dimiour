@@ -3,7 +3,7 @@ import styles from '../styles/About-section.module.css'
 
 const AboutSection = () => {
     return (
-        <div className={styles.about_section}>
+        <div className={styles.container}>
             <div className={styles.left_content}>
                 <div className={styles.title_issue}>WHO WE ARE</div>
 

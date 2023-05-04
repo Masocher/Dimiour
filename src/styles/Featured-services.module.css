@@ -1,0 +1,30 @@
+.right_content {
+    width: calc(50% - 30px);
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service_box {
+    width: 50%;
+    color: #6c757d;
+    margin: 30px 0;
+}
+
+.icon_box {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000bd;
+}
+
+.title_box {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.description {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
