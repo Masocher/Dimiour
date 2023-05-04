@@ -28,3 +28,34 @@
     letter-spacing: 1px;
     line-height: 30px;
 }
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+    .right_content {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .service_box {
+        width: 50%;
+    }
+
+    .description {
+        letter-spacing: 0;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 769px) {
+    .right_content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 501px) {
+    .service_box {
+        width: 100%;
+        text-align: center;
+    }
+}
