@@ -66,3 +66,44 @@
     letter-spacing: 1px;
     color: #6c757d;
 }
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+    .slider {
+        width: 960px;
+    }
+}
+
+@media (max-width: 769px) {
+    .slider {
+        width: 690px;
+    }
+}
+
+@media (max-width: 501px) {
+    .slider {
+        width: calc(100% - 50px);
+        height: 380px;
+    }
+}
+
+@media (max-width: 376px) {
+    .slider {
+        height: 420px;
+    }
+
+    .description {
+        padding: 0 30px 30px 30px;
+        letter-spacing: 0;
+        font-size: 14px;
+    }
+
+    .user_box {
+        padding: 30px 0 0 30px;
+    }
+
+    .user_information {
+        font-size: 14px;
+    }
+}
