@@ -5,6 +5,7 @@ import AboutSection from "../components/about-section"
 import Portfolio from "../components/portfolio"
 import FeaturedServices from '../components/featured-services'
 import Testimonials from "../components/testimonials"
+import ContatcUs from "../components/contact-us"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Portfolio/>
       <FeaturedServices/>
       <Testimonials/>
+      <ContatcUs/>
     </div>
   )
 }
