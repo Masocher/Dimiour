@@ -120,7 +120,12 @@
     }
 
     .work {
-        width: 100%;
         height: 350px !important;
+    }
+}
+
+@media (max-width: 321PX) {
+    .work {
+        height: 300px !important;
     }
 }
