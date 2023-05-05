@@ -1,6 +1,3 @@
-// assets
-import styles from '../styles/pages/About-us.module.css'
-
 // components
 import Header from '../components/header'
 import TopSection from '../components/top-section'
