@@ -26,7 +26,7 @@ const Portfolio = () => {
                     <div className={styles.column}>
                         <div style={{backgroundImage: `url(${image_2.src})`, height: '720px', marginBottom: '30px'}} className={styles.work}>
                             <div className={styles.black_layer} onMouseEnter={() => setTextStatus1(true)} onMouseLeave={() => setTextStatus1(false)}>
-                                <div style={{bottom: textStatus1 ? '10px' : '-20px'}} className={styles.work_title}>
+                                <div style={{bottom: textStatus1 ? '0' : '-30px'}} className={styles.work_title}>
                                     <div className={styles.work_name}>WORK NAME HERE</div>
 
                                     <div className={styles.work_category}>Category Here</div>
@@ -36,7 +36,7 @@ const Portfolio = () => {
 
                         <div style={{backgroundImage: `url(${image_4.src})`, height: '340px'}} className={styles.work}>
                             <div className={styles.black_layer} onMouseEnter={() => setTextStatus2(true)} onMouseLeave={() => setTextStatus2(false)}>
-                                <div style={{bottom: textStatus2 ? '10px' : '-20px'}} className={styles.work_title}>
+                                <div style={{bottom: textStatus2 ? '0' : '-30px'}} className={styles.work_title}>
                                     <div className={styles.work_name}>WORK NAME HERE</div>
 
                                     <div className={styles.work_category}>Category Here</div>
@@ -48,7 +48,7 @@ const Portfolio = () => {
                     <div className={styles.column}>
                         <div style={{backgroundImage: `url(${image_1.src})`, height: '340px', marginBottom: '30px'}} className={styles.work}>
                             <div className={styles.black_layer} onMouseEnter={() => setTextStatus3(true)} onMouseLeave={() => setTextStatus3(false)}>
-                                <div style={{bottom: textStatus3 ? '10px' : '-20px'}} className={styles.work_title}>
+                                <div style={{bottom: textStatus3 ? '0' : '-30px'}} className={styles.work_title}>
                                     <div className={styles.work_name}>WORK NAME HERE</div>
 
                                     <div className={styles.work_category}>Category Here</div>
@@ -58,7 +58,7 @@ const Portfolio = () => {
 
                         <div style={{backgroundImage: `url(${image_3.src})`, height: '720px'}} className={styles.work}>
                             <div className={styles.black_layer} onMouseEnter={() => setTextStatus4(true)} onMouseLeave={() => setTextStatus4(false)}>
-                                <div style={{bottom: textStatus4 ? '10px' : '-20px'}} className={styles.work_title}>
+                                <div style={{bottom: textStatus4 ? '0' : '-30px'}} className={styles.work_title}>
                                     <div className={styles.work_name}>WORK NAME HERE</div>
 
                                     <div className={styles.work_category}>Category Here</div>
