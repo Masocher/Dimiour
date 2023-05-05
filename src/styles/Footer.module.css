@@ -75,7 +75,7 @@
 }
 
 .inf_desc {
-    line-height: 22px;
+    line-height: 25px;
     color: #fff;
 }
 
@@ -97,13 +97,118 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-.copyright div {
-    margin: 0 8px;
-    font-size: 18px;
-    color: #dc3545;
-}
-
-.copyright span {
+.creator {
     color: #fff;
     margin-left: 5px;
+}
+
+.column_title {
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #fff;
+    display: none;
+}
+
+/* Responsive */
+
+@media (max-width: 1025px) {
+    .footer {
+        width: 960px;
+    }
+
+    .title:nth-child(1) {
+        width: calc(100% / 4 + 100px);
+    }
+    .title:nth-child(2) {
+        width: calc(100% / 2 - 120px);
+    }
+    .title:nth-child(3) {
+        width: calc(100% / 4 + 20px);
+    }
+
+    .column:nth-child(1) {
+        width: calc(100% / 4 + 70px);
+    }
+    .column:nth-child(2) {
+        width: calc(100% / 2 - 150px);
+    }
+    .column:nth-child(3) {
+        width: calc(100% / 4 - 10px);
+    }
+}
+
+@media (max-width: 769px) {
+    .footer {
+        width: 690px;
+    }
+
+    .title:nth-child(1) {
+        width: calc(100% / 4 + 70px);
+    }
+    .title:nth-child(2) {
+        width: calc(100% / 2 - 90px);
+    }
+    .title:nth-child(3) {
+        width: calc(100% / 4 + 20px);
+    }
+
+    .column {
+        padding-right: 50px;
+    }
+
+    .column:nth-child(1) {
+        width: calc(100% / 4 + 20px);
+    }
+    .column:nth-child(2) {
+        width: calc(100% / 2 - 130px);
+    }
+    .column:nth-child(3) {
+        width: calc(100% / 4 - 30px);
+    }
+}
+
+@media (max-width: 501px) {
+    .footer {
+        width: calc(100% - 50px);
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        margin-bottom: 80px;
+    }
+
+    .column:nth-child(1) {
+        width: 100%;
+    }
+    .column:nth-child(2) {
+        width: 100%;
+    }
+    .column:nth-child(3) {
+        width: 100%;
+    }
+
+    .copyright {
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 30px;
+        margin-top: 40px;
+        letter-spacing: 1px;
+    }
+
+    .titles {
+        display: none;
+    }
+
+    .column_title {
+        display: block;
+    }
+
+    .manager {
+        margin-top: 0;
+    }
 }
