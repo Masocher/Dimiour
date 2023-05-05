@@ -8,7 +8,7 @@ import Footer from '../components/footer'
 
 const About = () => {
     return (
-        <div className={styles.container}>
+        <div>
             <Header/>
             <TopSection title="ABOUT US" issue="About"/>
             <AboutSection/>
