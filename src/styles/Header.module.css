@@ -64,6 +64,13 @@
     cursor: pointer;
 }
 
+.header_pop_up {
+    position: absolute;
+    top: 3.5px;
+    right: -7px;
+    font-size: 14px;
+}
+
 /* Responsive */
 
 @media (max-width: 1025px) {

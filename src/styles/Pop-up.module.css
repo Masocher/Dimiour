@@ -1,0 +1,37 @@
+.container {
+    padding: 30px;
+    position: absolute;
+    left: 49.5%;
+    top: 50px;
+    transform: translate(-49.5%, 0);
+}
+
+.pop_up_box {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 180px;
+    border-radius: 4px;
+}
+
+.triangle {
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: -6px;
+    left: 15px;
+}
+
+.link {
+    width: calc(100% - 30px);
+    padding: 12px 15px;
+    transition: .2s;
+    cursor: pointer;
+}
+.link:hover {
+    background-color: #20c997;
+}
