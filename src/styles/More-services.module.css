@@ -42,3 +42,32 @@
     line-height: 30px;
     color: #6c757d;
 }
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media (max-width: 769px) {
+    .container {
+        width: 720px;
+    }
+
+    .service_box {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .container {
+        width: calc(100% - 25px);
+    }
+
+    .service_box {
+        width: 100%;
+    }
+}
