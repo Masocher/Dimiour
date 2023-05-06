@@ -1,0 +1,44 @@
+.container {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 240px auto 120px auto;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.title div {
+    display: inline;
+    font-weight: bold;
+}
+
+.services {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service_box {
+    width: 25%;
+    margin-top: 80px;
+}
+
+.service_icon {
+    font-size: 30px;
+    color: #000000bd;
+}
+
+.service_title {
+    color: #000;
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+}
+
+.service_description {
+    line-height: 30px;
+    color: #6c757d;
+}
