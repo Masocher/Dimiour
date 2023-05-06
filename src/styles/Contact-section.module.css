@@ -1,0 +1,82 @@
+.container {
+    width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_content {
+    display: flex;
+    width: 48%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input_title {
+    margin-bottom: 12px;
+    color: #6c757d;
+}
+
+.message_input, .text_input {
+    width: calc(100% - 30px);
+    padding: 17px 15px;
+    border: 2px solid #ced4da;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #495057;
+}
+.message_input:focus, .text_input:focus {
+    border-color: #7eeaca;
+}
+
+.text_input {
+    height: 200px;
+    resize: vertical;
+    margin-bottom: 0;
+}
+
+.send_btn {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #20c997;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    font-weight: bold;
+    letter-spacing: 3px;
+    width: fit-content;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+}
+.send_btn:hover {
+    background-color: #7eeaca;
+}
+
+.right_content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.information_box {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.information_box span {
+    color: #20c997;
+    font-size: 25px;
+    margin: 2px 20px 0 0;
+}
+
+.title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
