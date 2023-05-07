@@ -33,7 +33,7 @@ const Header = () => {
                     <Link href="/"><div style={{color: router.asPath === '/' ? '#fff' : '#999'}} className={styles.link}>Home</div></Link>
                     <Link href="/about-us"><div style={{color: router.asPath === '/about-us' ? '#fff' : '#999'}} className={styles.link}>About</div></Link>
                     <Link href="services"><div onMouseEnter={() => dispatch(openPopUp())} onMouseLeave={() => dispatch(closePopUp())} style={{color: router.asPath === '/services' ? '#fff' : '#999', position: 'relative', paddingRight: '10px'}} className={styles.link}>Services <div className={styles.header_pop_up}><FontAwesomeIcon icon={faAngleDown} /></div></div></Link>
-                    <Link href="portfolio"><div style={{color: router.asPath === '/portfolio' ? '#fff' : '#999'}} className={styles.link}>Portfolio</div></Link>
+                    <Link href="portfolio"><div style={{color: router.asPath === '/portfolio' || router.asPath === '/single-portfolio' ? '#fff' : '#999'}} className={styles.link}>Portfolio</div></Link>
                     <Link href="contact-us"><div style={{color: router.asPath === '/contact-us' ? '#fff' : '#999'}} className={styles.link}>Contact</div></Link>
                 </div>
                 
