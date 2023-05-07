@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div>
             <Header/>
-            <TopSection title="ABOUT US" issue="About"/>
+            <TopSection title="ABOUT US" issue="About" status={false}/>
             <AboutSection/>
             <AboutSection2/>
             <OurTeam/>

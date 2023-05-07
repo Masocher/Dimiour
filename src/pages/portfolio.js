@@ -10,7 +10,7 @@ const Portfolio = () => {
     return (
         <div>
             <Header/>
-            <TopSection title="OUR PORTFOLIO" issue="Portfolio"/>
+            <TopSection title="OUR PORTFOLIO" issue="Portfolio" status={false}/>
             <Portfolio2/>
             <Testimonials/>
             <ContactUs/>

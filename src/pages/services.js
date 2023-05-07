@@ -11,7 +11,7 @@ const Services = () => {
     return (
         <div>
             <Header/>
-            <TopSection title="OUR SERVICES" issue="Services"/>
+            <TopSection title="OUR SERVICES" issue="Services" status={false}/>
             <FeaturedServices/>
             <MoreServices/>
             <ContactUs/>

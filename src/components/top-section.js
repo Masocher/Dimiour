@@ -11,7 +11,11 @@ const TopSection = (props) => {
             
             <div className={styles.title_box}>
                 <div className={styles.title}>{props.title}</div>
-                <div className={styles.issue}><Link href='/'>Home</Link> <div>/</div> {props.issue}</div>
+                <div>
+                    {
+                        props.status ? <div className={styles.issue}><Link href='/'>Home</Link> <div>/</div> <Link href="/portfolio">Portfolio</Link> <div>/</div> {props.issue}</div> : <div className={styles.issue}><Link href='/'>Home</Link> <div>/</div> {props.issue}</div>
+                    }    
+                </div>
             </div>
         </div>
     )

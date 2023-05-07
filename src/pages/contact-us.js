@@ -8,7 +8,7 @@ const ContactUs = () => {
     return (
         <div>
             <Header/>
-            <TopSection title="CONTACT US" issue="Contact"/>
+            <TopSection title="CONTACT US" issue="Contact" status={false}/>
             <ContactSection/>
             <Footer/>
         </div>
