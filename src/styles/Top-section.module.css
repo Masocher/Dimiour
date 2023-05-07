@@ -31,6 +31,7 @@
 .issue {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .issue a {
@@ -49,5 +50,13 @@
         font-size: 40px;
         font-weight: bold;
         margin-bottom: 20px;
+    }
+
+    .issue {
+        font-size: 14px;
+    }
+
+    .issue div {
+        margin: 0 12px;
     }
 }
