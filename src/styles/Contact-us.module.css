@@ -45,7 +45,7 @@
 
 /* Responsive */
 
-@media (max-width: 501px) {
+@media (max-width: 767px) {
     .contact_box {
         width: calc(100% - 50px);
     }

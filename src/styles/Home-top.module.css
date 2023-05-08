@@ -64,21 +64,21 @@
 
 /* Responsive */
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .title_box {
         font-size: 65px;
         width: 80%;
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .title_box {
         font-size: 60px;
         width: 100%;
     }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 767px) {
     .title_box {
         font-size: 45px;
         letter-spacing: 2px;

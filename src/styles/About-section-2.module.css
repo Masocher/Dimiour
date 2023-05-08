@@ -17,13 +17,13 @@
 
 /* Responsive */
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .container {
         width: 960px;
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .container {
         width: 690px;
         flex-direction: column;
@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 767px) {
     .container {
         width: calc(100% - 25.6px);
     }

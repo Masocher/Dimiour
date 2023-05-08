@@ -31,7 +31,7 @@
 
 /* Responsive */
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .right_content {
         width: 50%;
         margin-left: 0;
@@ -47,13 +47,13 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .right_content {
         width: 100%;
     }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 767px) {
     .service_box {
         width: 100%;
         text-align: center;

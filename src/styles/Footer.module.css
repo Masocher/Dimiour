@@ -113,7 +113,7 @@
 
 /* Responsive */
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .footer {
         width: 960px;
     }
@@ -139,7 +139,7 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .footer {
         width: 690px;
     }
@@ -169,7 +169,7 @@
     }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 767px) {
     .footer {
         width: calc(100% - 50px);
     }

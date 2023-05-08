@@ -106,13 +106,13 @@
 
 /* Responsive */
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .right_content {
         width: calc(85% - 95px);
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .bottom_content {
         display: flex;
     }

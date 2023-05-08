@@ -51,7 +51,7 @@
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .container {
         width: 720px;
     }
@@ -62,7 +62,7 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 767px) {
     .container {
         width: calc(100% - 25px);
     }

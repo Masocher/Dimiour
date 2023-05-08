@@ -69,19 +69,19 @@
 
 /* Responsive */
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
     .slider {
         width: 960px;
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
     .slider {
         width: 690px;
     }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 767px) {
     .slider {
         width: calc(100% - 50px);
         height: 380px;
