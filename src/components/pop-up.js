@@ -7,7 +7,7 @@ import { openPopUp, closePopUp } from './redux/actions'
 
 const PopUp = () => {
 
-    const status = useSelector(reducer => reducer)
+    const status = useSelector(rootReducer => rootReducer.reducer_1)
     const dispatch = useDispatch()
 
     return (
