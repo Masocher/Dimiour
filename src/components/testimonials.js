@@ -1,14 +1,14 @@
 // assets
-import styles from '../styles/Testimonials.module.css'
+import styles from "../styles/Testimonials.module.css"
 
 // swiper
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
-import 'swiper/css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
+import "swiper/css";
 
 // testimonials images
-import image_1 from '../../public/images/testimonials/1.jpg'
-import image_2 from '../../public/images/testimonials/2.jpg'
+import image_1 from "../../public/images/testimonials/1.jpg"
+import image_2 from "../../public/images/testimonials/2.jpg"
 
 const Testimonials = () => {
     return (
@@ -32,7 +32,7 @@ const Testimonials = () => {
             >
                 <SwiperSlide className={styles.slide}>
                     <div className={styles.user_box}>
-                        <div className={styles.user_image} style={{backgroundImage: `url(${image_1.src})`}}></div>
+                        <div className={styles.user_image} style={{ backgroundImage: `url(${image_1.src})` }}></div>
 
                         <div className={styles.user_information}>
                             <div className={styles.user_name}>John Smith</div>
@@ -45,7 +45,7 @@ const Testimonials = () => {
 
                 <SwiperSlide className={styles.slide}>
                     <div className={styles.user_box}>
-                        <div className={styles.user_image} style={{backgroundImage: `url(${image_2.src})`}}></div>
+                        <div className={styles.user_image} style={{ backgroundImage: `url(${image_2.src})` }}></div>
 
                         <div className={styles.user_information}>
                             <div className={styles.user_name}>John Smith</div>
@@ -58,7 +58,7 @@ const Testimonials = () => {
 
                 <SwiperSlide className={styles.slide}>
                     <div className={styles.user_box}>
-                        <div className={styles.user_image} style={{backgroundImage: `url(${image_1.src})`}}></div>
+                        <div className={styles.user_image} style={{ backgroundImage: `url(${image_1.src})` }}></div>
 
                         <div className={styles.user_information}>
                             <div className={styles.user_name}>John Smith</div>
@@ -71,7 +71,7 @@ const Testimonials = () => {
 
                 <SwiperSlide className={styles.slide}>
                     <div className={styles.user_box}>
-                        <div className={styles.user_image} style={{backgroundImage: `url(${image_2.src})`}}></div>
+                        <div className={styles.user_image} style={{ backgroundImage: `url(${image_2.src})` }}></div>
 
                         <div className={styles.user_information}>
                             <div className={styles.user_name}>John Smith</div>

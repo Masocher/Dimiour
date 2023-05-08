@@ -1,9 +1,9 @@
 // assets
-import styles from '../styles/More-services.module.css'
+import styles from "../styles/More-services.module.css"
 
 // fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookOpen, faPaperPlane, faFaceLaugh, faCoffee, faCamera, faImage, faFlask, faLightbulb } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBookOpen, faPaperPlane, faFaceLaugh, faCoffee, faCamera, faImage, faFlask, faLightbulb } from "@fortawesome/free-solid-svg-icons"
 
 const MoreServices = () => {
     return (

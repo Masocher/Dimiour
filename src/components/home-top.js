@@ -1,15 +1,15 @@
 // assets
-import styles from '../styles/Home-top.module.css'
+import styles from "../styles/Home-top.module.css"
 
 // fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPlay } from "@fortawesome/free-solid-svg-icons"
 
 const HomeTop = () => {
     return (
         <div className={styles.container}>
             <div className={styles.image_box}></div>
-            
+
             <div className={styles.title_box}>
                 WE ARE CREATIVE AGENCY
 

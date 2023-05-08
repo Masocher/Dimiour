@@ -1,9 +1,9 @@
 // assets
-import styles from '../styles/Pop-up.module.css'
+import styles from "../styles/Pop-up.module.css"
 
 // redux
-import { useDispatch, useSelector } from 'react-redux'
-import { openPopUp, closePopUp } from './redux/actions'
+import { useDispatch, useSelector } from "react-redux"
+import { openPopUp, closePopUp } from "./redux/actions"
 
 const PopUp = () => {
 
@@ -11,7 +11,7 @@ const PopUp = () => {
     const dispatch = useDispatch()
 
     return (
-        <div className={styles.container} style={{display: status ? 'block' : 'none'}} onMouseEnter={() => dispatch(openPopUp())} onMouseLeave={() => dispatch(closePopUp())}>
+        <div className={styles.container} style={{ display: status ? "block" : "none" }} onMouseEnter={() => dispatch(openPopUp())} onMouseLeave={() => dispatch(closePopUp())}>
             <div className={styles.pop_up_box}>
                 <div className={styles.triangle}></div>
                 <div className={styles.link}>Branding</div>

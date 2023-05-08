@@ -7,10 +7,10 @@ import Footer from "../components/footer"
 const ContactUs = () => {
     return (
         <div>
-            <Header/>
-            <TopSection title="CONTACT US" issue="Contact" status={false}/>
-            <ContactSection/>
-            <Footer/>
+            <Header />
+            <TopSection title="CONTACT US" issue="Contact" status={false} />
+            <ContactSection />
+            <Footer />
         </div>
     )
 }

@@ -1,5 +1,5 @@
 // assets
-import styles from '../styles/Our-team.module.css'
+import styles from "../styles/Our-team.module.css"
 
 const OurTeam = () => {
     return (

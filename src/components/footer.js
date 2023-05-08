@@ -1,12 +1,12 @@
 // assets
-import styles from '../styles/Footer.module.css'
+import styles from "../styles/Footer.module.css"
 
 // tools
-import Link from 'next/link'
+import Link from "next/link"
 
 // fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faHeart } from "@fortawesome/free-solid-svg-icons"
 
 const Footer = () => {
     return (
@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className={styles.copyright}>Copyright © 2023 All Rights Reserved | This template is made with <FontAwesomeIcon style={{color: '#dc3545', margin: '0 5px', fontSize: '18px'}} icon={faHeart} /> by <Link href='https://github.com/Masocher'><div className={styles.creator}>Masocher</div></Link></div>
+                <div className={styles.copyright}>Copyright © 2023 All Rights Reserved | This template is made with <FontAwesomeIcon style={{ color: "#dc3545", margin: "0 5px", fontSize: "18px" }} icon={faHeart} /> by <Link href="https://github.com/Masocher"><div className={styles.creator}>Masocher</div></Link></div>
             </div>
         </div>
     )

@@ -3,22 +3,22 @@ import Header from "../components/header"
 import HomeTop from "../components/home-top"
 import AboutSection from "../components/about-section"
 import Portfolio from "../components/portfolio"
-import FeaturedServices from '../components/featured-services'
+import FeaturedServices from "../components/featured-services"
 import Testimonials from "../components/testimonials"
 import ContatcUs from "../components/contact-us"
 import Footer from "../components/footer"
 
 export default function Home() {
   return (
-    <div className='main_container'>
-      <Header/>
-      <HomeTop/>
-      <AboutSection/>
-      <Portfolio/>
-      <FeaturedServices/>
-      <Testimonials/>
-      <ContatcUs/>
-      <Footer/>
+    <div className="main_container">
+      <Header />
+      <HomeTop />
+      <AboutSection />
+      <Portfolio />
+      <FeaturedServices />
+      <Testimonials />
+      <ContatcUs />
+      <Footer />
     </div>
   )
 }

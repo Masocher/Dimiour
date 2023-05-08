@@ -1,5 +1,5 @@
 // assets
-import styles from '../styles/About-section.module.css'
+import styles from "../styles/About-section.module.css"
 
 const AboutSection = () => {
     return (

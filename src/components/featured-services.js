@@ -1,10 +1,10 @@
 // assets
-import styles from '../styles/About-section.module.css'
-import styles2 from '../styles/Featured-services.module.css'
+import styles from "../styles/About-section.module.css"
+import styles2 from "../styles/Featured-services.module.css"
 
 // fontawesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobilePhone, faDesktop, faRocket, faShieldAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faMobilePhone, faDesktop, faRocket, faShieldAlt } from "@fortawesome/free-solid-svg-icons"
 
 const FeaturedServices = () => {
     return (

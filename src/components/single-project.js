@@ -1,8 +1,8 @@
 // assets
-import styles from '../styles/Single-project.module.css'
+import styles from "../styles/Single-project.module.css"
 
 // tools
-import Link from 'next/link'
+import Link from "next/link"
 
 const SingleProject = () => {
     return (
@@ -32,9 +32,9 @@ const SingleProject = () => {
             </div>
 
             <div className={styles.buttons}>
-                <Link href="#" style={{width: '30%'}}><div className={styles.button}>PERVIOUS PROJECT</div></Link>
-                <Link href="#" style={{width: '30%'}}><div className={styles.button}>ALL PROJECTS</div></Link>
-                <Link href="#" style={{width: '30%'}}><div className={styles.button}>NEXT PROJECT</div></Link>
+                <Link href="#" style={{ width: "30%" }}><div className={styles.button}>PERVIOUS PROJECT</div></Link>
+                <Link href="#" style={{ width: "30%" }}><div className={styles.button}>ALL PROJECTS</div></Link>
+                <Link href="#" style={{ width: "30%" }}><div className={styles.button}>NEXT PROJECT</div></Link>
             </div>
         </div>
     )

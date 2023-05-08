@@ -1,20 +1,20 @@
 // components
 import Header from "../components/header"
-import TopSection from '../components/top-section'
+import TopSection from "../components/top-section"
 import Portfolio2 from "../components/portfolio2"
-import Testimonials from '../components/testimonials'
-import ContactUs from '../components/contact-us'
-import Footer from '../components/footer'
+import Testimonials from "../components/testimonials"
+import ContactUs from "../components/contact-us"
+import Footer from "../components/footer"
 
 const Portfolio = () => {
     return (
         <div>
-            <Header/>
-            <TopSection title="OUR PORTFOLIO" issue="Portfolio" status={false}/>
-            <Portfolio2/>
-            <Testimonials/>
-            <ContactUs/>
-            <Footer/>
+            <Header />
+            <TopSection title="OUR PORTFOLIO" issue="Portfolio" status={false} />
+            <Portfolio2 />
+            <Testimonials />
+            <ContactUs />
+            <Footer />
         </div>
     )
 }
