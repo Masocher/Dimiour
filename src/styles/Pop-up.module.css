@@ -16,16 +16,6 @@
     border-radius: 4px;
 }
 
-.triangle {
-    width: 13px;
-    height: 13px;
-    background-color: #fff;
-    transform: rotateZ(45deg);
-    position: absolute;
-    top: -6px;
-    left: 15px;
-}
-
 .link {
     width: calc(100% - 30px);
     padding: 12px 15px;
